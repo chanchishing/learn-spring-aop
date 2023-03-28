@@ -15,8 +15,10 @@ public class BusinessService1 {
         this.dataService1 = dataService1;
     }
 
-    public int calculateMax(){
+    public int calculateMax () {
         int[] data=dataService1.retrieveData();
+
+        int error =99/0;
 
         return Arrays.stream(data).max().orElse(0);
     }
