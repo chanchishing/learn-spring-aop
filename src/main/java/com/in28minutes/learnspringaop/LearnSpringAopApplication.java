@@ -1,6 +1,6 @@
 package com.in28minutes.learnspringaop;
 
-import com.in28minutes.learnspringaop.aopexample.businese.BusinessService1;
+import com.in28minutes.learnspringaop.aopexample.business.BusinessService1;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
